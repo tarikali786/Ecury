@@ -1,0 +1,16 @@
+.button {
+  background-color: var(--text-color);
+  padding: 15px 30px 15px 30px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-block: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: scale 0.4s linear;
+}
+
+.button:active {
+  scale: 0.8;
+}

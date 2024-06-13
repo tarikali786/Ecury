@@ -1,0 +1,66 @@
+.footer-container {
+  background-color: var(--text-color);
+  color: var(--text-color-white);
+  padding: 2rem 10%;
+}
+
+.footer-container > img {
+  width: 180px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.footer-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-content: flex-start;
+  margin-top: 2rem;
+}
+
+.footer-card {
+  width: calc(100% / 4 - 2rem);
+  min-width: 200px;
+}
+.footer-card > h2 {
+  font-size: 24px;
+}
+.footer-card > p {
+  font-size: 15px;
+  color: var(--text-color-white);
+  margin: 0.8rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.locationIcon {
+  font-size: 20px !important;
+}
+.appPlaystore {
+  width: 140px;
+  height: 50px;
+  cursor: pointer;
+
+  margin-top: 1rem;
+}
+.socialIcon {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.socialIcon > a {
+  color: var(--text-color);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+}
+
+.socialIcon > a:hover {
+  color: var(--brand-color);
+}
