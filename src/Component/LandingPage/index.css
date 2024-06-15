@@ -1,7 +1,9 @@
-.backtoTop{
+.backtoTop {
   right: 4rem;
 }
-
+.ant-back-top-content {
+  background-color: var(--brand-color) !important;
+}
 .Hero-component {
   position: relative;
   width: 100%;
@@ -547,13 +549,13 @@ label {
   .faq-container > h1 {
     font-size: 30px;
   }
-  .card-content > h3{
+  .card-content > h3 {
     font-size: 20px;
   }
-  .card-content > p{
+  .card-content > p {
     font-size: 16px;
   }
-  .service-icon{
+  .service-icon {
     width: 200px;
   }
 }

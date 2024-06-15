@@ -4,7 +4,7 @@ import Button from "../Common/Button";
 import { useState } from "react";
 import { Button as AntdButton, Drawer } from "antd";
 import MenuIcon from "@mui/icons-material/Menu";
-
+import { BackTop } from "antd";
 
 import "./index.css";
 
@@ -83,6 +83,9 @@ const Hero = () => {
           omnis natus enim! Provident?
         </p>
         <Button text="Explore Services" />
+      </div>
+      <div>
+        <BackTop duration={100} className="backtoTop" />
       </div>
     </div>
   );
