@@ -4,7 +4,7 @@ import icon1 from "../../assets/icon/Group 77.png";
 const Testimonials = () => {
   return (
     <div className="section testimonial-container" id="blog">
-      <h2>Testimonials</h2>
+      {/* <h2>Testimonials</h2> */}
       <h1>What Our Clients Say</h1>
       <div className="testimonial-cards">
         {[1, 2, 3, 4, 5].map((item) => (

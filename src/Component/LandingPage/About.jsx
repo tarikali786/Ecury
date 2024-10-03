@@ -5,19 +5,20 @@ const About = () => {
   return (
     <div id="about" className="section about-container">
       <div className="about-leftContent">
-        <h2>About Us</h2>
+        <h2>Company Statement’s</h2>
         <h1>Ensuring Product Authenticity Through QR Code Authentication</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam sequi
-          maxime quae perspiciatis officia dolorum, eligendi sit repellendus
-          iste corporis cumque tempore recusandae fugit dicta illum. Ipsam culpa
-          maiores commodi!
+          Our mission is to empower individuals and organizations through the
+          delivery of innovative solutions and unparalleled services. We are
+          dedicated to fostering growth, facilitating learning, and driving
+          success in a dynamic and ever-evolving environment.
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo
-          sunt dolores quasi, voluptatem animi dolor cum quos iste temporibus
-          delectus illo sequi expedita id officiis? Amet optio recusandae
-          repellendus cupiditate?
+          Our vision is to be a preeminent leader in our industry, distinguished
+          by our unwavering commitment to excellence, sustainability, and the
+          transformative impact we create within the communities we serve. We
+          aspire to set the standard for innovation and integrity, shaping a
+          better future for all stakeholders.
         </p>
       </div>
       <div className="about-rightContent">

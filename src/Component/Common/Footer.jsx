@@ -1,7 +1,6 @@
 import Logo from "../../assets/img/Logo.png";
 import PlayStore from "../../assets/img/Group (4).png";
 import AppleStore from "../../assets/img/App Store.png";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
 import EmailIcon from "@mui/icons-material/Email";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -12,14 +11,15 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="section footer-container">
+    <div className=" footer-container section">
       <img src={Logo} alt="" />
       <div className="footer-cards">
         <div className="footer-card">
           <h2>About Secury</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum id
-            numquam vel nulla expedita provident iusto!
+            Serialization | Anti-Counterfeiting | Track & Trace | Product Recall
+            | Expiry Alert Protocols | Brand Promotion E Commerce | AI Driven
+            Analytics
           </p>
           <div className="socialIcon">
             <a href="#" target="_blank">
@@ -46,23 +46,23 @@ const Footer = () => {
         </div>
         <div className="footer-card">
           <h2>Contact</h2>
-          <p>
+          {/* <p>
             <LocationOnIcon className="locationIcon" /> xyz location
-          </p>
+          </p> */}
           <p>
             <EmailIcon className="locationIcon" />
-            securyai@gmail.com
+            contact@sumeeragroup.com
           </p>
           <p>
             <CallIcon className="locationIcon" />
-            9085527881
+            +91 96672 33379
           </p>
         </div>
         <div className="footer-card">
           <h2>Get Our App</h2>
-          <p>
+          {/* <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum id
-          </p>
+          </p> */}
           <img src={PlayStore} alt="" className="appPlaystore" /> <br />
           <img src={AppleStore} alt="" className="appPlaystore" />
         </div>

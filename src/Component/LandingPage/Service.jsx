@@ -11,7 +11,10 @@ const Service = () => {
   return (
     <div id="service" className="section service-container">
       <h2>Our Services</h2>
-      <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</h1>
+      <h1>
+        Integrated Product Security Solutions for Diverse Industries Empowering
+        Businesses with Comprehensive Ecosystem
+      </h1>
       <div className="service-cards">
         <div className="service-card">
           <div className="service-icon">
@@ -19,17 +22,24 @@ const Service = () => {
           </div>
           <div className="card-content">
             <h3>Serialization</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
-            </p>
+            <ul>
+              <li>
+                Implement advanced serialization techniques to ensure product
+                traceability and supply chain security
+              </li>
+              <li>
+                Comply with industry regulations, such as the Drug Supply Chain
+                Security Act (DSCSA) and the Falsified Medicines Directive
+                (FMD), to enhance consumer confidence and protect against
+                counterfeiting.
+              </li>
+            </ul>
             <Link to="#" className="readMore">
               Read more
             </Link>
           </div>
         </div>
+        
 
         <div className="service-card">
           <div className="service-icon">
@@ -37,12 +47,17 @@ const Service = () => {
           </div>
           <div className="card-content">
             <h3>Anti-Counterfeiting</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
-            </p>
+            <ul>
+              <li>
+                Utilize cutting-edge technology, such as AI-based digital
+                fingerprinting, to safeguard your brand against counterfeiting
+                and unauthorized distribution.
+              </li>
+              <li>
+                Protect your intellectual property, maintain brand integrity,
+                and reduce the risk of reputational damage.
+              </li>
+            </ul>
             <Link to="#" className="readMore">
               Read more
             </Link>
@@ -55,12 +70,12 @@ const Service = () => {
           </div>
           <div className="card-content">
             <h3>Track & Trace</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
-            </p>
+            <ul>
+              <li>
+                From manufacturer to end user, every step in supply chain is
+                managed.
+              </li>
+            </ul>
             <Link to="#" className="readMore">
               Read more
             </Link>
@@ -72,12 +87,12 @@ const Service = () => {
           </div>
           <div className="card-content">
             <h3>Product Recall</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
-            </p>
+            <ul>
+              <li>
+                Offer a one-click Batch Recall management system coupled with an
+                automated product expiry alert mechanism.
+              </li>
+            </ul>
             <Link to="#" className="readMore">
               Read more
             </Link>
@@ -88,13 +103,13 @@ const Service = () => {
             <img src={Icon5} alt="" />
           </div>
           <div className="card-content">
-            <h3>Expiry Recall</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
-            </p>
+            <h3>Inventory Control</h3>
+            <ul>
+              <li>
+                Ensure extensive inventory control and management down to the
+                unit level for maximum efficiency.
+              </li>
+            </ul>
             <Link to="#" className="readMore">
               Read more
             </Link>
@@ -106,12 +121,17 @@ const Service = () => {
           </div>
           <div className="card-content">
             <h3>Institutional Supply Coding</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
-            </p>
+            <ul>
+              <li>
+                State of the art Bulk supply coding system with user level
+                scanning
+              </li>
+              <li>
+                System prevents unauthorized distribution from bulk supply
+                channels and ensures no expired products remains in inventory of
+                the client.
+              </li>
+            </ul>
             <Link to="#" className="readMore">
               Read more
             </Link>
@@ -122,13 +142,13 @@ const Service = () => {
             <img src={Icon7} alt="" />
           </div>
           <div className="card-content">
-            <h3>E-Commerce</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
-            </p>
+            <h3>Secury Managed Services App</h3>
+            <ul>
+              <li>
+                Manage Supply chain. Engage with customers, build loyalty, and
+                drive sales.
+              </li>
+            </ul>
             <Link to="#" className="readMore">
               Read more
             </Link>
@@ -139,13 +159,14 @@ const Service = () => {
             <img src={Icon8} alt="" />
           </div>
           <div className="card-content">
-            <h3>AI Powered Market Cohort Analytics</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua.
-            </p>
+            <h3>AI-Driven Analytics</h3>
+            <ul>
+              <li>
+                Leverage Artificial Intelligence to provide insightful user data
+                analytics and Cohort Charts.
+              </li>
+              
+            </ul>
             <Link to="#" className="readMore">
               Read more
             </Link>

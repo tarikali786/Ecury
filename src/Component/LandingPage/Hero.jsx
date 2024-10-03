@@ -1,5 +1,5 @@
 import Bgimg from "../../assets/img/herobg.png";
-import Logo from "../../assets/img/Logo.png";
+import Logo from "../../assets/img/logoScury.png";
 import Button from "../Common/Button";
 import { useState } from "react";
 import { Button as AntdButton, Drawer } from "antd";
@@ -68,19 +68,20 @@ const Hero = () => {
 
       {/* Hero ccontent */}
       <div className="hero-content">
-        <h1>Revolutionize Your</h1>
-        <h2>Security with QR</h2>
+        <h1>Revolutionize Your Product Security </h1>
+        <h2>With Advance Secury Ecosystem</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-          provident vero dolores laudantium neque quam perspiciatis eaque illo
-          culpa commodi. Asperiores perferendis dolores sequi hic nesciunt,
-          omnis natus enim! Provident?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-          provident vero dolores laudantium neque quam perspiciatis eaque illo
-          culpa commodi. Asperiores perferendis dolores sequi hic nesciunt,
-          omnis natus enim! Provident?
+          In an era where counterfeiting presents substantial challenges across
+          diverse sectors such as Pharmaceuticals, FMCG, Capital Goods, and
+          Luxury Goods, our innovative platform delivers a sophisticated,
+          layered security architecture. This multi-tiered approach to security
+          is meticulously designed to safeguard each aspect of the product
+          lifecycle. Our app-based closed ecosystem not only facilitates
+          comprehensive product serialization but also ensures the utmost
+          authenticity and integrity throughout the supply chain, empowering
+          businesses to confidently combat counterfeiting threats and many other
+          challenges as smooth scan and go supply chain management, Batch
+          recall, customer connect and more..
         </p>
         <Button text="Explore Services" />
       </div>
