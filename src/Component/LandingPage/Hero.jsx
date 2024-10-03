@@ -18,8 +18,12 @@ const Header = () => {
   };
   return (
     <header className="hero-header">
-      <div className="hero-logo-image">
-        <img src={Logo} alt="" />
+      <div  className="hero-header__bg">
+
+        <div className="hero-logo-image">
+          <img src={Logo} alt="" />
+        </div>
+        <p>Sumeera Infosystems Pvt. ltd.</p>
       </div>
       <div className="hero-header-item">
         <nav>
@@ -61,34 +65,36 @@ const Header = () => {
 
 const Hero = () => {
   return (
-    <div id="home" className="Hero-component">
-      <img src={Bgimg} alt="" className="bgImage" />
-      {/* Header */}
-      <Header />
+    <>
+      <div id="home" className="Hero-component">
+        <img src={Bgimg} alt="" className="bgImage" />
+        {/* Header */}
+        <Header />
 
-      {/* Hero ccontent */}
-      <div className="hero-content">
-        <h1>Revolutionize Your Product Security </h1>
-        <h2>With Advance Secury Ecosystem</h2>
-        <p>
-          In an era where counterfeiting presents substantial challenges across
-          diverse sectors such as Pharmaceuticals, FMCG, Capital Goods, and
-          Luxury Goods, our innovative platform delivers a sophisticated,
-          layered security architecture. This multi-tiered approach to security
-          is meticulously designed to safeguard each aspect of the product
-          lifecycle. Our app-based closed ecosystem not only facilitates
-          comprehensive product serialization but also ensures the utmost
-          authenticity and integrity throughout the supply chain, empowering
-          businesses to confidently combat counterfeiting threats and many other
-          challenges as smooth scan and go supply chain management, Batch
-          recall, customer connect and more..
-        </p>
-        <Button text="Explore Services" />
+        {/* Hero ccontent */}
+        <div className="hero-content">
+          <h1>Revolutionize Your Product Security </h1>
+          <h2>With Advance Secury Ecosystem</h2>
+          <p>
+            In an era where counterfeiting presents substantial challenges
+            across diverse sectors such as Pharmaceuticals, FMCG, Capital Goods,
+            and Luxury Goods, our innovative platform delivers a sophisticated,
+            layered security architecture. This multi-tiered approach to
+            security is meticulously designed to safeguard each aspect of the
+            product lifecycle. Our app-based closed ecosystem not only
+            facilitates comprehensive product serialization but also ensures the
+            utmost authenticity and integrity throughout the supply chain,
+            empowering businesses to confidently combat counterfeiting threats
+            and many other challenges as smooth scan and go supply chain
+            management, Batch recall, customer connect and more..
+          </p>
+          <Button text="Explore Services" />
+        </div>
+        <div>
+          <BackTop duration={100} className="backtoTop" />
+        </div>
       </div>
-      <div>
-        <BackTop duration={100} className="backtoTop" />
-      </div>
-    </div>
+    </>
   );
 };
 
