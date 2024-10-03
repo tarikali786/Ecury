@@ -1,4 +1,4 @@
-import Logo from "../../assets/img/Logo.png";
+import Logo from "../../assets/img/logoScury.png";
 import PlayStore from "../../assets/img/Group (4).png";
 import AppleStore from "../../assets/img/App Store.png";
 import EmailIcon from "@mui/icons-material/Email";

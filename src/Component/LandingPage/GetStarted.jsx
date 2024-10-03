@@ -7,7 +7,7 @@ const GetStarted = () => {
       <img src={Img1} alt="" />
       <h2>Experience Authenticity Reinforced by Advanced AI Technology</h2>
       <p>Secure, seamless and intuitive product verification</p>
-      <Button text ='Get Started'/>
+      <Button text="Get Started" link={"https://secury.ai "} />
     </div>
   );
 };

@@ -1,11 +1,12 @@
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import "./button.css";
-const Button = ({ text, arrow }) => {
+import { Link } from "react-router-dom";
+const Button = ({ text, arrow, link }) => {
   return (
-    <div className="button">
+    <Link className="button" to={link}>
       {text}
       {arrow && <ArrowForwardIosIcon />}
-    </div>
+    </Link>
   );
 };
 
