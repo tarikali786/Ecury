@@ -23,10 +23,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:.3rem 2rem;
+  padding: 0.4rem 2rem;
 }
 .hero-logo-image {
-  height:80px;
+  height: 66px;
   width: 120px;
 }
 .hero-logo-image > img {

@@ -63,16 +63,15 @@ const Header = () => {
 const Hero = () => {
   return (
     <>
-      <Header />
-
       <div id="home" className="Hero-component">
         <img src={Bgimg} alt="" className="bgImage" />
         {/* Header */}
+        <Header />
 
         {/* Hero ccontent */}
         <div className="hero-content">
           <h1>Revolutionize Your Product Security </h1>
-          <h2>With Advance Secury Ecosystem</h2>
+          <h2>With Advance Sumeera Infosystems</h2>
           <p>
             In an era where counterfeiting presents substantial challenges
             across diverse sectors such as Pharmaceuticals, FMCG, Capital Goods,
