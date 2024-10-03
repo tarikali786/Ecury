@@ -15,7 +15,7 @@ const Footer = () => {
       <img src={Logo} alt="" />
       <div className="footer-cards">
         <div className="footer-card">
-          <h2>About Secury</h2>
+          <h2>About Sumeera Infosystems pvt. ltd.</h2>
           <p>
             Serialization | Anti-Counterfeiting | Track & Trace | Product Recall
             | Expiry Alert Protocols | Brand Promotion E Commerce | AI Driven
